@@ -12,8 +12,5 @@ fn main() {
   }
   println!("The value of x is: {x}");
 
-
-  let spaces = "   ";
-  spaces = spaces.len();
-
+  let _guess: u32 = "42".parse().expect("Not a number");
 } // main
