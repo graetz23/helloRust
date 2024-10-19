@@ -4,6 +4,10 @@
 //const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn main() {
+    // boolean
+    let t = true; // implicit
+    let f : bool = false; // explicit
+
     // addition
     let sum = 5 + 10;
 
