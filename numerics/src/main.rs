@@ -4,6 +4,10 @@
 //const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn main() {
+    // character
+    let c = 'z'; // implicit
+    let z : char = 'z'; // with explicit type annotation
+
     // boolean
     let t = true; // implicit
     let f : bool = false; // explicit
