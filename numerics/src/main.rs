@@ -4,6 +4,10 @@
 //const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn main() {
+    // tuple declaration of different types
+    let tup : (i32, f64, u8) = (500, 6.4, 1);
+    let (x, y, z) = tup;
+
     // character
     let c = 'z'; // implicit
     let z : char = 'z'; // with explicit type annotation
